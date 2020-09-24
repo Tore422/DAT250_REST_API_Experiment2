@@ -1,4 +1,4 @@
-package no.hvl.dat110.rest.counters;
+package main.java.no.hvl.dat110.rest.counters;
 
 import java.io.IOException;
 import java.io.InputStream;

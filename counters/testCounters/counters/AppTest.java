@@ -1,4 +1,4 @@
-package no.hvl.dat110.rest.counters;
+package counters;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
