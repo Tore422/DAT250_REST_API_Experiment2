@@ -9,6 +9,7 @@
 
 
 
+
 # Created by https://www.toptal.com/developers/gitignore/api/intellij,java,maven,git,eclipse
 # Edit at https://www.toptal.com/developers/gitignore?templates=intellij,java,maven,git,eclipse
 
@@ -144,6 +145,7 @@ cmake-build-*/
 
 # IntelliJ
 out/
+target/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
@@ -197,7 +199,6 @@ fabric.properties
 .idea/codestream.xml
 
 ### Java ###
->>>>>>> ce879566a662bc23154ab3a1cd6d6ba5461a4280
 # Compiled class file
 *.class
 
@@ -236,4 +237,3 @@ buildNumber.properties
 .mvn/wrapper/maven-wrapper.jar
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij,java,maven,git,eclipse
-

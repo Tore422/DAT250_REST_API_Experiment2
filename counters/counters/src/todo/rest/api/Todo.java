@@ -1,5 +1,7 @@
 package todo.rest.api;
 
+import com.google.gson.Gson;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -35,4 +37,9 @@ public class Todo {
                 + "]";
     }
 
+    public String toJson() {
+        Gson gson = new Gson();
+        String jsonString = gson.toJson(this);
+        return jsonString;
+    }
 }
